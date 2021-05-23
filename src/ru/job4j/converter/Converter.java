@@ -12,7 +12,8 @@ public class Converter {
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(210);
         int dollar = Converter.rubleToDollar(180);
-        System.out.println("210 рублей это: " + euro + " евро");
-        System.out.println("180 рублей это: " + dollar + " доллара");
+        int expected = 3;
+        System.out.println("210 рублей это: " + euro + " евро. " + "Test result : " + (euro == expected));
+        System.out.println("180 рублей это: " + dollar + " доллара. " + "Test result : " + (dollar == expected));
     }
 }
