@@ -1,4 +1,4 @@
-package ru.job4j.array.ru.job4j.array;
+package ru.job4j.array;
 
 import org.junit.Assert;
 import org.junit.Test;
