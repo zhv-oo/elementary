@@ -1,5 +1,9 @@
 package ru.job4j.array;
-
+/*
+* Объединяем два отсортированных массива.
+* left - первый отсортированный массив.
+* right - второй отсортированный массив.
+* */
 public class Merge {
     public static int[] merge(int[] left, int[] right) {
         int a = 0, b = 0;

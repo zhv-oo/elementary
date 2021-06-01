@@ -1,7 +1,11 @@
 package ru.job4j.array;
 
 import java.util.Arrays;
-
+/*
+ * Выдаем сдачу в автомате, используя жадный алгоритм.
+ * money - купюра от покупателя.
+ * price - цена товара.
+ * */
 public class Machine {
     public static int[] change(int money, int price) {
         int[] coins = {10, 5, 2, 1};
